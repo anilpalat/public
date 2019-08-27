@@ -1,0 +1,21 @@
+version: 0.2
+
+env:
+  variables:
+    JAVA_HOME: "/usr/java/jdk-11.0.4"
+
+phases:
+  build:
+    commands:
+    - echo building the public app
+    - mvn install
+artifacts:
+  files:
+  - target/*.jar
+  - scripts/*.sh
+  - appspec.yml
+  discard-paths: yes
+
+cache:
+  paths:
+  - '/root/.m2/**/*'
