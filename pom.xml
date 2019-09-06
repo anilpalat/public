@@ -42,6 +42,14 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
+            <resources>
+                <resource>
+                    <directory>${project.basedir}</directory><!-- from -->
+                    <targetPath>${project.build.directory}</targetPath><!-- to -->
+                    <includes><!-- what -->
+                        <include>appspec.yml</include>
+                    </includes>
+                </resource>
+            </resources>
     </build>
-
 </project>
