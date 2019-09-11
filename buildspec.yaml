@@ -16,4 +16,5 @@ artifacts:
   files:
   - target/gs-rest-service-0.1.0.jar
   - appspec.yml
+  name: public
   discard-paths: yes
