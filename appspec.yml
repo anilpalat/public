@@ -3,3 +3,9 @@ os: linux
 files:
 - source: ./gs-rest-service-0.1.0.jar
   destination: /tmp
+hooks:
+  BeforeInstall:
+  AfterInstall:
+  ApplicationStart:
+  - location: /tmp/run.sh
+  ApplicationStop:
