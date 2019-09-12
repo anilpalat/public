@@ -8,4 +8,5 @@ hooks:
   AfterInstall:
   ApplicationStart:
     - location: scripts/run.sh
+      runas: root
   ApplicationStop:
