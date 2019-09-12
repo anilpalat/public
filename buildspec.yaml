@@ -17,5 +17,5 @@ artifacts:
   - target/gs-rest-service-0.1.0.jar
   - appspec.yml
   - scripts/run.sh
-  name: public-$AWS_REGION
+  name: public-project
   discard-paths: yes
