@@ -1,4 +1,2 @@
-pwd
-whoami
-#chmod 777 ./gs-rest-service-0.1.0.jar
-java -jar tmp/gs-rest-service-0.1.0.jar
+screen -X -S fcc kill
+screen -S fcc -d -m java -jar gs-rest-service-0.1.0.jar
