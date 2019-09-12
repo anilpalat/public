@@ -7,6 +7,6 @@ hooks:
   BeforeInstall:
   AfterInstall:
   ApplicationStart:
-    - location: scripts/run.sh
+    - location: run.sh
       runas: root
   ApplicationStop:
