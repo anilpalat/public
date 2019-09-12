@@ -7,5 +7,5 @@ hooks:
   BeforeInstall:
   AfterInstall:
   ApplicationStart:
-    - location: /tmp/run.sh
+    - location: scripts/run.sh
   ApplicationStop:
